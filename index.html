@@ -28,14 +28,14 @@
 </head>
 <body>
   <h1>Privacy Policy</h1>
-  <p class="effective">Effective Date: October 29, 2026</p>
+  <p class="effective">Effective Date: November 15, 2026</p>
 
   <p>Sculpted Classic ("the App") is developed and operated by Anthony Asare ("we", "us", or "our"). This Privacy Policy explains how we collect, use, and protect your information when you use the App.</p>
 
   <h2>Information We Collect</h2>
   <p><strong>Account Information:</strong> When you create an account, we collect your email address and password (stored securely via Supabase Authentication).</p>
   <p><strong>Fitness Data:</strong> Workout logs, exercise history, personal records, and fitness goals you enter into the App. This data is stored in your account and synced to our cloud database.</p>
-  <p><strong>Nutrition Data:</strong> Meals, food items, macro and calorie data you log. Barcode scans are processed using Open Food Facts. Food name searches use USDA FoodData Central. We do not store barcode images.</p>
+  <p><strong>Nutrition Data:</strong> Meals, food items, macro and calorie data you log. Food searches and barcode scans are sent through our secure backend to USDA FoodData Central and Open Food Facts. Only the search text or barcode number is sent to them; your name, email and account details are not, and they do not receive your IP address. We count lookups per account to prevent abuse. We do not save your search text to our database or logs; recent search results are kept in server memory for up to five minutes, with no account attached, so repeated searches load faster. We do not store barcode images.</p>
   <p><strong>Body Metrics:</strong> Weight, body measurements, weight history, and progress photos stay on your device. They are not uploaded to our servers.</p>
 
   <h2>Information We Do Not Collect</h2>
@@ -64,8 +64,8 @@
     <li><strong>Supabase</strong>: Authentication and cloud database (<a href="https://supabase.com/privacy" target="_blank">Privacy Policy</a>)</li>
     <li><strong>RevenueCat</strong>: Subscription management (<a href="https://www.revenuecat.com/privacy" target="_blank">Privacy Policy</a>)</li>
     <li><strong>Anthropic</strong>: AI workout generation, with your permission, processed via our secure backend (<a href="https://www.anthropic.com/legal/privacy" target="_blank">Privacy Policy</a>)</li>
-    <li><strong>Open Food Facts</strong>: Food barcode database (<a href="https://world.openfoodfacts.org/terms-of-use" target="_blank">Terms</a>)</li>
-    <li><strong>USDA FoodData Central</strong>: Nutrition data (<a href="https://fdc.nal.usda.gov/api-guide" target="_blank">API Guide</a>)</li>
+    <li><strong>Open Food Facts</strong>: Food and barcode database, queried through our secure backend (<a href="https://world.openfoodfacts.org/terms-of-use" target="_blank">Terms</a>)</li>
+    <li><strong>USDA FoodData Central</strong>: Nutrition data, queried through our secure backend (<a href="https://fdc.nal.usda.gov/api-guide" target="_blank">API Guide</a>)</li>
   </ul>
 
   <h2>Data Storage and Security</h2>
